@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh" data-theme="light"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AI 周报 — 2026-06-28 ~ 2026-07-04 — AI News Daily</title><meta name="description" content="本周 AI 圈被新模型、Agent 商业化与评估反思三重主线牵引：Claude Sonnet 5、GLM-5.2、Mistral Leanstral 1.5 接连登场，Microsoft 将 Copilot 升级为超级应用并推出 AutoPilot，UK AISI 则指出标准基准严重低估 Agent 真实能力。"><meta name="generator" content="Astro v6.4.8"><!-- Open Graph --><meta property="og:title" content="AI 周报 — 2026-06-28 ~ 2026-07-04 — AI News Daily"><meta property="og:description" content="本周 AI 圈被新模型、Agent 商业化与评估反思三重主线牵引：Claude Sonnet 5、GLM-5.2、Mistral Leanstral 1.5 接连登场，Microsoft 将 Copilot 升级为超级应用并推出 AutoPilot，UK AISI 则指出标准基准严重低估 Agent 真实能力。"><meta property="og:type" content="website"><meta property="og:url" content="https://jianzhnie.github.io/ai-news-daily/ai-trending/2026-07-04-ai-trending-weekly/"><meta property="og:image" content="https://jianzhnie.github.io/ai-news-daily/favicon.svg"><!-- Twitter Card --><meta name="twitter:card" content="summary"><meta name="twitter:title" content="AI 周报 — 2026-06-28 ~ 2026-07-04 — AI News Daily"><meta name="twitter:description" content="本周 AI 圈被新模型、Agent 商业化与评估反思三重主线牵引：Claude Sonnet 5、GLM-5.2、Mistral Leanstral 1.5 接连登场，Microsoft 将 Copilot 升级为超级应用并推出 AutoPilot，UK AISI 则指出标准基准严重低估 Agent 真实能力。"><link rel="canonical" href="https://jianzhnie.github.io/ai-news-daily/ai-trending/2026-07-04-ai-trending-weekly/"><link rel="icon" type="image/svg+xml" href="/ai-news-daily/favicon.svg"><link rel="sitemap" href="/ai-news-daily/sitemap-index.xml"><link rel="alternate" type="application/rss+xml" title="AI News Daily RSS" href="/ai-news-daily/rss.xml"><script>
+      (function () {
+        const theme = localStorage.getItem("theme") || "light";
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><link rel="stylesheet" href="/ai-news-daily/assets/Layout.DbE5yn1F.css"></head> <body class="bg-background text-foreground mx-auto min-h-screen max-w-3xl px-4 py-8 antialiased"> <header class="border-border flex flex-wrap items-center justify-between gap-y-3 border-b pb-4"> <a href="/ai-news-daily/" class="text-accent text-xl font-bold no-underline shrink-0"> AI News Daily </a> <div class="flex items-center gap-3"> <nav class="hidden md:flex items-center gap-3 text-sm"> <a href="/ai-news-daily/ai-trending/" class="hover:text-accent transition-colors text-accent font-semibold"> AI-Trending </a><a href="/ai-news-daily/github-trending/" class="hover:text-accent transition-colors text-muted-foreground"> Github-Trending </a><a href="/ai-news-daily/arxiv-papers/" class="hover:text-accent transition-colors text-muted-foreground"> ArXiv </a><a href="/ai-news-daily/deepresearch/" class="hover:text-accent transition-colors text-muted-foreground"> DeepResearch </a><a href="/ai-news-daily/tags/" class="hover:text-accent transition-colors text-muted-foreground"> Tags </a><a href="/ai-news-daily/archives/" class="hover:text-accent transition-colors text-muted-foreground"> Archives </a> </nav> <a href="/ai-news-daily/search/" class="text-muted-foreground hover:text-accent text-sm" title="搜索"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="5"></circle><path d="M11 11l3 3"></path></svg> </a> <button id="theme-toggle" class="text-muted-foreground hover:text-accent cursor-pointer text-sm" aria-label="切换主题">🌓</button> </div> <!-- Mobile nav --> <nav class="md:hidden flex flex-wrap gap-x-3 gap-y-1 text-sm w-full"> <a href="/ai-news-daily/ai-trending/" class="hover:text-accent transition-colors text-accent font-semibold"> AI-Trending </a><a href="/ai-news-daily/github-trending/" class="hover:text-accent transition-colors text-muted-foreground"> Github-Trending </a><a href="/ai-news-daily/arxiv-papers/" class="hover:text-accent transition-colors text-muted-foreground"> ArXiv </a><a href="/ai-news-daily/deepresearch/" class="hover:text-accent transition-colors text-muted-foreground"> DeepResearch </a><a href="/ai-news-daily/tags/" class="hover:text-accent transition-colors text-muted-foreground"> Tags </a><a href="/ai-news-daily/archives/" class="hover:text-accent transition-colors text-muted-foreground"> Archives </a> </nav> </header> <main class="mt-8">  <article class="app-prose mx-auto max-w-none"> <header class="border-border mb-8 border-b pb-6"> <h1 class="text-accent text-2xl font-bold leading-tight">AI 周报 — 2026-06-28 ~ 2026-07-04</h1> <div class="text-muted-foreground mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm"> <time datetime="2026-07-04T00:00:00.000Z"> 2026年7月4日 </time> <span>约 26 分钟阅读</span> </div> <div class="mt-3 flex flex-wrap gap-1.5"> <a href="/ai-news-daily/tags/AI Agent/" class="bg-muted hover:bg-card text-muted-foreground hover:text-accent rounded-full border border-border hover:border-accent px-2 py-0.5 text-xs transition-colors no-underline">AI Agent</a><a href="/ai-news-daily/tags/大模型发布/" class="bg-muted hover:bg-card text-muted-foreground hover:text-accent rounded-full border border-border hover:border-accent px-2 py-0.5 text-xs transition-colors no-underline">大模型发布</a><a href="/ai-news-daily/tags/AI 安全/" class="bg-muted hover:bg-card text-muted-foreground hover:text-accent rounded-full border border-border hover:border-accent px-2 py-0.5 text-xs transition-colors no-underline">AI 安全</a><a href="/ai-news-daily/tags/开源生态/" class="bg-muted hover:bg-card text-muted-foreground hover:text-accent rounded-full border border-border hover:border-accent px-2 py-0.5 text-xs transition-colors no-underline">开源生态</a> </div> </header> <h1 id="ai-周报--2026-06-28--2026-07-04">AI 周报 — 2026-06-28 ~ 2026-07-04</h1>
+<h2 id="本周要闻">本周要闻</h2>
+<p>本周 AI 前沿呈现<strong>模型发布、Agent 工程化、评估反思</strong>三条主线并行。模型侧，<a href="https://dev.to/romans/sonnet-5-vs-glm-52-vs-everyone-how-to-pick-the-cheapest-llm-api-in-2026-49ja">Claude Sonnet 5</a> 与 <a href="https://dev.to/romans/sonnet-5-vs-glm-52-vs-everyone-how-to-pick-the-cheapest-llm-api-in-2026-49ja">GLM-5.2</a> 在 API 定价上正面交锋，<a href="https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/">Mistral Leanstral 1.5</a> 则以 Apache-2.0 协议在 Lean 4 数学证明上取得突破。Agent 侧，<a href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/">Microsoft 计划将 Copilot 整合为单一超级应用</a>并推出后台 AutoPilot agent，而 <a href="https://www.reddit.com/r/artificial/comments/1umcprg/andrew_ng_in_36_months_everyone_will_be_using/">Andrew Ng 预言 3-6 个月内 self-improving loops 将成为主流</a>。评估侧，<a href="https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/">UK AI Security Institute 发现标准基准因限制 token 预算而系统性低估 Agent 能力</a>，为当前技术进展的测量方式敲响警钟。</p>
+<h2 id="分类导读">分类导读</h2>
+<h3 id="-llm-训练与架构">🔥 LLM 训练与架构</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★★</td><td align="left">MarkTechPost</td><td align="left"><a href="https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/">Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems</a></td><td align="left">119B MoE 开源模型在数学形式化证明上取得突破，显示代码 Agent 在硬核推理任务上的潜力。</td></tr><tr><td align="center">★★☆</td><td align="left">Dev.to</td><td align="left"><a href="https://dev.to/romans/sonnet-5-vs-glm-52-vs-everyone-how-to-pick-the-cheapest-llm-api-in-2026-49ja">Sonnet 5 vs GLM-5.2 vs everyone: how to pick the cheapest LLM API in 2026</a></td><td align="left">对比 Anthropic Sonnet 5 与 Z.AI GLM-5.2 的定价策略，强调 token 结构、缓存与层级对成本的影响。</td></tr><tr><td align="center">★★☆</td><td align="left">Reddit</td><td align="left"><a href="https://www.reddit.com/r/artificial/comments/1umc2gt/tested_4_brand_new_frontier_models_2_chinese_1/">Tested 4 brand new frontier models (2 Chinese, 1 diffusion, 1 agent-focused) with a riddle that has no logical shortcut</a></td><td align="left">对 MiMo-V2.5-Pro、MiniMax M3、Mercury 2、LongCat-2.0 进行非模式匹配谜题测试，揭示部分模型仍存在伪造来源问题。</td></tr><tr><td align="center">★☆☆</td><td align="left">Towards Data Science</td><td align="left"><a href="https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-context-model-win/">Long Context vs. Short Context Model: When Does a Long Context Model Win?</a></td><td align="left">从成本、速度与数据角度分析长上下文模型的适用边界。</td></tr></tbody></table>
+<h3 id="-agent-与-ai-engineering">🤖 Agent 与 AI Engineering</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★★</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/">Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents</a></td><td align="left">Microsoft 计划 8 月合并消费级与企业级 Copilot，并推出后台 AutoPilot agent，显示大厂正将 Agent 作为核心入口。</td></tr><tr><td align="center">★★☆</td><td align="left">Dev.to</td><td align="left"><a href="https://dev.to/sar_007/the-ai-coding-agent-ecosystem-in-2026-every-major-tool-framework-and-skill-system-ranked-5682">The AI Coding Agent Ecosystem in 2026: Every Major Tool, Framework, and Skill System Ranked</a></td><td align="left">梳理 2026 年 AI 编码 Agent 工具、框架与技能系统的格局，反映生态快速碎片化。</td></tr><tr><td align="center">★★☆</td><td align="left">Lobsters</td><td align="left"><a href="https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post">Agentic coding notes from Galapogos Island</a></td><td align="left">Dan Luu 对 Agentic 编码循环、人机协作边界与工程实践的冷静观察。</td></tr><tr><td align="center">★★☆</td><td align="left">Dev.to</td><td align="left"><a href="https://dev.to/olaughter/json-schema-masks-can-block-needed-tool-calls-3k12">JSON-Schema masks can block needed tool calls</a></td><td align="left">指出基于 JSON Schema 的语法掩码会静默阻止 LLM Agent 必要的工具调用，并提供双阶段推理绕过方案。</td></tr><tr><td align="center">★★☆</td><td align="left">Reddit</td><td align="left"><a href="https://www.reddit.com/r/artificial/comments/1umcprg/andrew_ng_in_36_months_everyone_will_be_using/">Andrew Ng: “In 3-6 months, everyone will be using self-improving loops. No more prompting”</a></td><td align="left">Andrew Ng 认为 100% 任务已由 AI Agent 完成，self-improving loops 将取代逐轮提示。</td></tr><tr><td align="center">★☆☆</td><td align="left">Towards Data Science</td><td align="left"><a href="https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/">AI Agents Explained: What Is a ReAct Loop and How Does It Work?</a></td><td align="left">解释 ReAct 循环的基本机制，适合作为 Agent 入门参考。</td></tr></tbody></table>
+<h3 id="-ai-产业与商业">🏢 AI 产业与商业</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★☆</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/">Chinese AI video maker Kling raises $2 billion as it gears up for Hong Kong IPO</a></td><td align="left">快手为 AI 视频部门 Kling 融资约 20 亿美元，加速港股上市布局。</td></tr><tr><td align="center">★★☆</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/">Claude Code’s complicated China problem involves bans on both sides of the Pacific</a></td><td align="left">Anthropic 试图限制中国公司使用 Claude Code，而阿里巴巴也因隐藏代码问题禁止员工使用，凸显地缘政治与合规张力。</td></tr><tr><td align="center">★★☆</td><td align="left">雷锋网</td><td align="left"><a href="https://www.leiphone.com/category/industrynews/6GlFzI5hMwcfRoGZ.html">生数科技发布 Vidu S1，推动视频生成迈向”实时交互”新时代</a></td><td align="left">生数科技发布 Vidu S1 实时交互视频模型，支持语音控制与连续互动，标志视频生成从离线走向实时。</td></tr><tr><td align="center">★★☆</td><td align="left">VentureBeat</td><td align="left"><a href="https://venturebeat.com/orchestration/trunk-tools-stack-cut-document-review-from-60-days-to-10-by-ditching-general-purpose-models/">Trunk Tools’ stack cut document review from 60 days to 10 by ditching general-purpose models</a></td><td align="left">建筑业公司采用感知-语义-Agent 三层专用架构，将文档审查周期从 60 天缩短至 10 天。</td></tr><tr><td align="center">★☆☆</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/">Tesla caps employee AI spending at $200 per week</a></td><td align="left">特斯拉内部备忘录限制员工每周 AI 支出为 200 美元，反映企业级 AI 成本管控压力。</td></tr></tbody></table>
+<h3 id="️-ai-安全与治理">🛡️ AI 安全与治理</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★★</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/">UK’s AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do</a></td><td align="left">标准评估因限制 token 预算而低估 Agent 能力，软件工程任务成功率在预算扩大 10 倍后提升约 25%。</td></tr><tr><td align="center">★★☆</td><td align="left">The Decoder</td><td align="left"><a href="https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/">Security vulnerability reports have exploded since AI models started hunting for bugs</a></td><td align="left">2026 年 6 月报告的高危/严重 CVE 数量达此前月均 3.5 倍以上，与 AI 漏洞挖掘项目上线时间高度吻合。</td></tr><tr><td align="center">★★☆</td><td align="left">Reddit</td><td align="left"><a href="https://www.reddit.com/r/artificial/comments/1ums1ou/repeat_the_text_above_this_line_still_works_on/">”Repeat the text above this line” still works on most AI agents in production. Here’s what we found.</a></td><td align="left">系统提示提取攻击在多数生产 Agent 中仍有效，可泄露工具配置与内部规则。</td></tr><tr><td align="center">★☆☆</td><td align="left">Reddit</td><td align="left"><a href="https://www.reddit.com/r/artificial/comments/1umenvi/do_not_pay_for_a_subscription/">DO NOT PAY FOR A SUBSCRIPTION</a></td><td align="left">Perplexity Pro 用户发现上传与 Deep Research 功能被悄然设限，引发订阅权益透明度争议。</td></tr></tbody></table>
+<h3 id="-多模态与具身智能">🎨 多模态与具身智能</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★☆</td><td align="left">雷锋网</td><td align="left"><a href="https://www.leiphone.com/category/industrynews/CBx8Wb28sANFCEO5.html">场景至上，实效为王：NAVIAI 人形机器人多领域应用场景领跑！</a></td><td align="left">NAVIAI 人形机器人在工业、服务、教育等场景规模化落地，强调真实场景验证。</td></tr><tr><td align="center">★☆☆</td><td align="left">Google DeepMind</td><td align="left"><a href="https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/">Google DeepMind and A24 announce first-of-its-kind research partnership</a></td><td align="left">Google DeepMind 与电影公司 A24 达成研究合作，探索 AI 在创意产业的应用。</td></tr></tbody></table>
+<h3 id="️-开源与开发者工具">🛠️ 开源与开发者工具</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★★</td><td align="left">GitHub</td><td align="left"><a href="https://github.com/huggingface/transformers/releases/tag/v5.13.0">[huggingface/transformers] Release v5.13.0</a></td><td align="left">Transformers 库新增 Kimi K2.5/2.6/2.7 与 MiMo-V2-Flash 支持，巩固开源模型集成枢纽地位。</td></tr><tr><td align="center">★★☆</td><td align="left">Simon Willison</td><td align="left"><a href="https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything">Open Source AI Gap Map</a></td><td align="left">Current AI 发布的 Gap Map v0.1 覆盖 421 个开源项目，为开源 AI 生态提供全景索引。</td></tr><tr><td align="center">★★☆</td><td align="left">MarkTechPost</td><td align="left"><a href="https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/">Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox</a></td><td align="left">MIT 许可的本地优先浏览器 Agent，支持 Ask/Act 模式与本地模型接入。</td></tr><tr><td align="center">★☆☆</td><td align="left">Towards Data Science</td><td align="left"><a href="https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/">LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler</a></td><td align="left">用纯 Python 编译器替代基于 Agent/嵌入的 LLM Wiki，展示确定性文本组织的效率优势。</td></tr></tbody></table>
+<h3 id="️-深度观点与评论">✍️ 深度观点与评论</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">评级</th><th align="left">来源</th><th align="left">标题</th><th align="left">摘要</th></tr></thead><tbody><tr><td align="center">★★☆</td><td align="left">Don’t Worry About the Vase</td><td align="left"><a href="https://thezvi.substack.com/p/fable-6-the-return-of-the-king">Fable #6: The Return of the King</a></td><td align="left">Zvi Mowshowitz 对 Claude Fable 系列能力与影响的深度评论。</td></tr><tr><td align="center">★★☆</td><td align="left">Simon Willison</td><td align="left"><a href="https://simonwillison.net/2026/Jul/3/judgement/#atom-everything">Fable’s judgement</a></td><td align="left">来自 Anthropic 团队的建议：让 Fable 自主判断工作方式，而非过度规定流程。</td></tr><tr><td align="center">★☆☆</td><td align="left">Reddit</td><td align="left"><a href="https://www.reddit.com/r/artificial/comments/1umwtp0/ai_didnt_replace_the_work_for_me_it_moved_the/">AI didn’t replace the work for me. It moved the stress to a different place.</a></td><td align="left">用户反思 AI 并未消除工作负担，而是将压力从”起草”转移到”验证与纠错”。</td></tr></tbody></table>
+<h2 id="本周趋势">本周趋势</h2>
+<ul>
+<li><strong>Agent 从工具走向入口</strong>：Microsoft、Anthropic、OpenAI 均将 Agent 定位为超级应用核心，后台自动化（AutoPilot）成为新的收费层级。</li>
+<li><strong>模型迭代节奏加快但评估滞后</strong>：新模型周度发布成为常态，但 UK AISI 指出标准基准可能严重低估真实能力，评估方法论需要同步升级。</li>
+<li><strong>开源与闭源定价张力升温</strong>：GLM-5.2、Leanstral 1.5 等开源/开放权重模型持续施压闭源 API 定价，企业开始重新审视”tokenmaxxing”模式的 ROI。</li>
+<li><strong>AI 安全从研究议题变为运营风险</strong>：系统提示泄露、AI 驱动漏洞挖掘激增等事件表明，安全不再是论文话题，而是生产部署的直接成本。</li>
+</ul>
+<h2 id="统计">统计</h2>
+<ul>
+<li>总计 <strong>20 篇</strong> | ★★★ <strong>5 篇</strong> | ★★☆ <strong>11 篇</strong> | ★☆☆ <strong>4 篇</strong></li>
+<li>来源：100 篇文章中优先筛选 P1/P2 高质量源与官方渠道</li>
+<li>采集时间：2026-07-04</li>
+</ul>
+<hr>
+<p><em>[Dev.to] <a href="https://dev.to/romans/sonnet-5-vs-glm-52-vs-everyone-how-to-pick-the-cheapest-llm-api-in-2026-49ja">Sonnet 5 vs GLM-5.2</a> · [MarkTechPost] <a href="https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/">Leanstral 1.5</a> · [The Decoder] <a href="https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/">UK AISI benchmark study</a> · [The Decoder] <a href="https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/">Microsoft Copilot super app</a> · [GitHub] <a href="https://github.com/huggingface/transformers/releases/tag/v5.13.0">Transformers v5.13.0</a></em></p> </article>  </main> <footer class="border-border text-muted-foreground mt-12 border-t pt-6 text-center text-sm"> <p>
+&copy; 2026 AI News Daily &mdash;
+    由 <a href="https://github.com/jianzhnie/AI-News-Daily" class="text-accent hover:underline no-external-icon">AI-News-Daily</a> 驱动
+</p> <p class="mt-1"> <a href="/ai-news-daily/rss.xml" class="text-accent hover:underline">RSS 订阅</a> </p> </footer> <button id="back-to-top" class="bg-card border-border hover:bg-muted text-muted-foreground hover:text-foreground fixed right-6 bottom-6 z-50 hidden rounded-full border p-2.5 shadow-sm transition-all" aria-label="回到顶部"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 12V4M4 8l4-4 4 4"></path></svg> </button> <script>
+  const toggle = document.getElementById("theme-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      const current = document.documentElement.dataset.theme;
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("theme", next);
+    });
+  }
+  const btn = document.getElementById("back-to-top");
+  if (btn) {
+    window.addEventListener("scroll", () => {
+      btn.classList.toggle("hidden", window.scrollY < 300);
+    });
+    btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
+</script></body></html>
